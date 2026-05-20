@@ -1,0 +1,34 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #efefef;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 900px;
+    margin:auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius:10px;
+}
+
+.insere-tarefa{
+      display: flex;
+      gap:16px;
+      align-items: center;
+}
+
+.insere-tarefa input{
+    flex:7;
+    height: 40px;
+    padding: 6px;
+}
+
+.insere-tarefa button{
+    flex:1;
+    height: 55px;
+    font-size: 22px;
+}

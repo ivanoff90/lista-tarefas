@@ -1,34 +1,47 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #efefef;
 }
 
-.container{
-    display:flex;
+.containder {
+    display: flex;
     flex-direction: column;
     width: 900px;
-    margin:auto;
-    background-color: #fff;
+    margin: auto;
+    background-color: #ffffff;
     padding: 20px;
     margin-top: 40px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
-.insere-tarefa{
-      display: flex;
-      gap:16px;
-      align-items: center;
+.insere-tarefa {
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
-.insere-tarefa input{
-    flex:7;
+.insere-tarefa input {
+    flex: 7;
     height: 40px;
     padding: 6px;
 }
 
-.insere-tarefa button{
-    flex:1;
+.insere-tarefa button {
+    flex: 1;
     height: 55px;
     font-size: 22px;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit {
+    background-color: #00ff00;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
 }
